@@ -6,7 +6,7 @@ public class BinOps {
     }
 
     protected String multi(String a, String b) {
-        return Integer.toBinaryString(Integer.parseInt(a, 2) + Integer.parseInt(b, 2));
+        return Integer.toBinaryString(Integer.parseInt(a, 2) * Integer.parseInt(b, 2));
     }
 
 }
